@@ -228,7 +228,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--small-font-size);
+    font-size: 1rem;
     color: var(--title-color);
     font-weight: var(--font-medium);
     transition: all 0.5s ease;
@@ -316,7 +316,7 @@ img{
 }
 
 .home__title{
-    font-size: var(--big-font-size);
+    font-size: 2.2rem;
 }
 
 .home__subtitle{
@@ -390,6 +390,11 @@ img{
 .about__animation{
     position: relative;
 }
+
+.about__container{
+    max-width: 900PX;
+}
+
 .about__img{
     width: 220px;
     border-radius: .5rem;
@@ -399,7 +404,7 @@ img{
 
 .about__description{
     text-align: justify;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1);
 
 }
 
@@ -784,6 +789,18 @@ textarea{
         column-gap: 0;
     }
 
+    .nav__link{
+        font-size: 0.7rem;
+    }
+
+    .nav__icon{
+        font-size: 1.1rem;
+    }
+    
+    .nav__close{
+        font-size: 1.3rem;
+    }
+
     .home__content{
         grid-template-columns: .25fr 3fr;
     }
@@ -799,6 +816,10 @@ textarea{
 
     .skills__info{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets{
+        bottom: 11.6rem;
     }
 
     /*.portfolio__img{
