@@ -726,12 +726,14 @@ textarea{
     opacity: .8;
     padding: 0 .3rem;
     border-radius: .4rem;
+    transition: .6s;
     z-index: var(--z-tooltip);
-    transition: .4s;
+    
 }
 
 .scrollup:hover{
     background-color: var(--first-color-alt);
+    transition: .6s;
 }
 
 .scrollup__icon{
@@ -746,7 +748,7 @@ textarea{
 
 /*========== SCROLL BAR ==========*/
 ::-webkit-scrollbar{
-    width: .60rem;
+    width: .90rem;
     background-color: var(--scroll-bar-color);
     border: .5rem;
 }
