@@ -397,7 +397,7 @@ img{
 
 .about__img{
     width: 220px;
-    border-radius: .5rem;
+    border-radius: 2rem;
     justify-self: center;
     align-self: center;
 }
