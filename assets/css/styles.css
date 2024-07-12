@@ -395,12 +395,12 @@ img{
     max-width: 900PX;
 }
 
-.about__img{
+/*.about__img{
     width: 220px;
     border-radius: 2rem;
     justify-self: center;
     align-self: center;
-}
+}*/
 
 .about__description{
     text-align: justify;
